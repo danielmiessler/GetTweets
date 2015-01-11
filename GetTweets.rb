@@ -18,6 +18,4 @@ client.user_timeline.take(5).collect do |tweet|
      filehandle.puts  "-"
       end
 
-# Finish tweets file
-filehandle.puts '<p>:: <a href="https://twitter.com/intent/user?screen_name=DanielMiessler">twitter.com/yourusername</a></p>'
 filehandle.close
